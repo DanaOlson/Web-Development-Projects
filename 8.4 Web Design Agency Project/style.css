@@ -1,0 +1,95 @@
+html {
+  
+  background-color: #000000b9;
+  background-image: url('./assets/images/black-sand.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.card {
+  width: 45%;
+}
+
+.card-title {
+  display: inline;
+}
+
+.tile-image {
+  float: left; 
+  height: 200px;
+  margin-right: 50px;
+}
+
+.creative {
+  color: rgb(0, 255, 255);
+}
+
+.create {
+  color: red;
+}
+
+.develop {
+  color: rgb(185, 252, 1);
+}
+
+.design {
+  color: rgb(87, 178, 253);
+}
+
+.right > .card-title {
+  color:rgb(235, 194, 59)
+}
+
+.left>.card-title {
+  color:rgb(89, 245, 136)
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    text-align: justify;
+  }
+
+  .card img {
+    width: 100%;
+    display: inline;
+    object-fit:cover;
+  }
+}
